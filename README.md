@@ -1,5 +1,7 @@
-# Website_Blocker
-This app blocks websites using a website's URL.
+
+# <img src="https://github.com/sagnikghoshcr7/images/blob/master/Website%20Blocker%20gif.gif" height="50px" width="405px"></h1>
+
+### This app blocks websites using a website's URL.
 
 ### New Features
   - Import/Export: Enable the ability to import and export the list of blocked websites, allowing users to save their settings or transfer them to another device.
@@ -7,59 +9,22 @@ This app blocks websites using a website's URL.
   - Notifications: Implemented alerts to inform users when a website is blocked or unblocked.
 
 ### Upcoming Features
-  - Website blocker that can block the website for certain time range.
+  - Schedule Blocking: Allow users to schedule specific time intervals during which the blocked websites will be inaccessible. This feature can be useful for limiting access to certain websites during work or study hours.
+  - Whitelist: Provide an option to create a list of websites that should never be blocked, even if they are included in the blocked websites list. This can be useful for essential websites or services.
 
-<img src="https://github.com/sagnikghoshcr7/images/blob/master/Website%20Blocker%20gif.gif" height="50px" width="405px"></h1>
-
-### Prerequisite:
-  - Python 3.x
-  
 ### Get the code from the repository
-
 ```
-git clone https://github.com/sagnikghoshcr7/Website-Blocker.git
+https://github.com/UmbrellaSkiies/Website_Blocker
 ```
 
 ### How To Use:
-  - First copy all the files to a folder
-  - Open sitelist.txt
-  - Enter all the websites you want to block
+  - Enter website(s) you want to block (seperated by commas)
   
   ### Example:
-  sitelist.txt
- 
-   >www.facebook.com 
-   
-   >www.twitter.com 
-   
-   >www.google.com
+  >www.facebook.com,
+  >www.twitter.com,
+  >www.instagram.com,
+  >www.youtube.com
   
-  ### For Mac or Linux
-  - Open Terminal(Linux or Mac) on the blocker folder and Type
-  
-```
- $ sudo python3 blocker.py
-```
-  
-  ### For Windows
-  - Right click on 'run.bat' 
-  - Click Run as Administrator  
-  - Then Enter the Time range for which block websites in the format of
-  '13 30 15 25' for blocking From 13:30 PM till 15:25 PM
-  
-  ### Troublshoot
-  #### To Reset Blocker and Unblock all websites
-  run the program and do not enter any time range
-
-    >Website Blocker 1.0
-    >INFO: Python 3 is required for blocker to run
-
-
-    >Enter time duration. Eg. '13 25 15 30' for from 1:25 PM to 3:30 PM
-    >
-    >
-    >
-    >
-    
-  
-  This will unblock any website which is being blocked by blocker
+  - Click "Block" button
+  - Then you will get a message that will display "Website(s) blocked"
