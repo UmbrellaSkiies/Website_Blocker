@@ -1,4 +1,3 @@
-
 # <img src="https://github.com/sagnikghoshcr7/images/blob/master/Website%20Blocker%20gif.gif" height="50px" width="405px"></h1>
 
 ### This app blocks websites using a website's URL.
